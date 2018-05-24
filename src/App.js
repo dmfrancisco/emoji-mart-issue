@@ -4,7 +4,7 @@ import './App.css';
 
 import 'emoji-mart/css/emoji-mart.css';
 import data from 'emoji-mart/data/emojione.json';
-import { NimblePicker } from 'emoji-mart';
+import { NimblePicker } from 'emoji-mart/dist-es';
 
 class App extends Component {
   render() {
