@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import 'emoji-mart/css/emoji-mart.css';
-import { Picker } from 'emoji-mart';
+import data from 'emoji-mart/data/emojione.json';
+import { NimblePicker } from 'emoji-mart';
 
 class App extends Component {
   render() {
     return (
-      <Picker set='emojione' />
+      <NimblePicker set='emojione' data={data} />
     );
   }
 }
